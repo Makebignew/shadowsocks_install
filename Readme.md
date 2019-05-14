@@ -1,50 +1,46 @@
-![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
+
 # Auto install Shadowsocks Server
 
-one-click code
+one-click install
 ===============================
 wget --no-check-certificate -O shadowsocks-all.sh https://rahttps://raw.githubusercontent.com/Makebignew/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
-shadowsocks.sh
-===============
-- Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/342.html
+========================================================
+To uninstall
 
-shadowsocks-libev.sh
-===============
-- Auto Install Shadowsocks(libev) Server for CentOS
-- https://teddysun.com/357.html
+./shadowsocks-all.sh uninstall
 
-shadowsocks-libev-debian.sh
-===============
-- Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
-- https://teddysun.com/358.html
+==========================================
+Command List
 
-shadowsocks-go.sh
-===============
-- Auto Install Shadowsocks(Go) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/392.html
+Shadowsocks-Python ：
+/etc/init.d/shadowsocks-python start | stop | restart | status
 
-shadowsocks-crond.sh
-===============
-- Check Shadowsocks(All version) Server is running or not, and start it if not running
-- https://teddysun.com/525.html
+ShadowsocksR ：
+/etc/init.d/shadowsocks-r start | stop | restart | status
 
-shadowsocksR.sh
-===============
-- Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
-- https://shadowsocks.be/9.html
+Shadowsocks-Go ：
+/etc/init.d/shadowsocks-go start | stop | restart | status
 
-shadowsocks-all.sh
-==================
-- Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
-- https://teddysun.com/486.html
+Shadowsocks-libev ：
+/etc/init.d/shadowsocks-libev start | stop | restart | status
 
-haproxy.sh
-===============
-- Auto Install haproxy for Shadowsocks Server
-- https://shadowsocks.be/10.html
+====================================================================
+Configuration File
+
+Shadowsocks-Python ：
+/etc/shadowsocks-python/config.json
+
+ShadowsocksR ：
+/etc/shadowsocks-r/config.json
+
+Shadowsocks-Go ：
+/etc/shadowsocks-go/config.json
+
+Shadowsocks-libev ：
+/etc/shadowsocks-libev/config.json
+
 
 Copyright (C) 2014-2019 Teddysun
