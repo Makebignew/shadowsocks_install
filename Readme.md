@@ -8,11 +8,13 @@ chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
 ========================================================
+
 To uninstall
 
 ./shadowsocks-all.sh uninstall
 
 ==========================================
+
 Command List
 
 Shadowsocks-Python ：
@@ -28,6 +30,7 @@ Shadowsocks-libev ：
 /etc/init.d/shadowsocks-libev start | stop | restart | status
 
 ====================================================================
+
 Configuration File
 
 Shadowsocks-Python ：
